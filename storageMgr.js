@@ -1,10 +1,11 @@
 /*
 * (The MIT License)
 * Copyright (c) 2015-2016 YunJiang.Fang <42550564@qq.com>
+* edited: Sam Liu <genxstylez@gmail.com>
 */
 'use strict';
 
-var Sqlite = require('@remobile/react-native-sqlite');
+var Sqlite = require('react-native-sqlite-storage');
 var fs = require('react-native-fs');
 
 const DB_NAME = "cache_image";
